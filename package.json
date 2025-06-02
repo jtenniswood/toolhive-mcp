@@ -1,0 +1,48 @@
+{
+  "name": "toolhive-mcp",
+  "version": "0.1.2",
+  "description": "A ToolHive MCP server for managing MCP servers through natural language",
+  "main": "index.js",
+  "bin": {
+    "toolhive-mcp": "./bin/toolhive-mcp.js"
+  },
+  "scripts": {
+    "start": "node bin/toolhive-mcp.js",
+    "setup": "node bin/setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "toolhive",
+    "ai",
+    "cursor",
+    "model-context-protocol"
+  ],
+  "author": "ToolHive <support@toolhive.ai>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7",
+    "chalk": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toolhive/toolhive-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toolhive/toolhive-mcp/issues"
+  },
+  "homepage": "https://github.com/toolhive/toolhive-mcp#readme",
+  "files": [
+    "bin/",
+    "*.py",
+    "pyproject.toml",
+    "requirements.txt",
+    "README.md",
+    "toolhive.env"
+  ]
+} 
