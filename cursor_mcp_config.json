@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "toolhive-controller": {
+      "command": "/Users/jtenniswood/Git/toolhive-mcp/.venv/bin/python3",
+      "args": [
+        "/Users/jtenniswood/Git/toolhive-mcp/toolhive_server.py"
+      ],
+      "env": {
+        "TOOLHIVE_API_BASE": "http://localhost:8080",
+        "TOOLHIVE_CLI_PATH": "thv",
+        "TOOLHIVE_AUTO_START_API": "true",
+        "LOG_LEVEL": "ERROR"
+      }
+    }
+  }
+}
