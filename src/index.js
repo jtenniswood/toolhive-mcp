@@ -18,7 +18,7 @@ const { spawn } = require('child_process');
  * @returns {Promise<ChildProcess>} The server process
  */
 function startServer(options = {}) {
-  const binPath = path.join(__dirname, 'bin', 'toolhive-mcp.js');
+  const binPath = path.join(__dirname, '..', 'bin', 'toolhive-mcp.js');
   const args = [];
   
   if (options.setupOnly) {
@@ -41,5 +41,5 @@ module.exports = {
 
 // If called directly, run the CLI
 if (require.main === module) {
-  require('./bin/toolhive-mcp.js');
+  require('../bin/toolhive-mcp.js');
 } 

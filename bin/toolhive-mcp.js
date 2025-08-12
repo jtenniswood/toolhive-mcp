@@ -268,7 +268,7 @@ async function runServer() {
     : path.join(packageDir, '.venv', 'bin', 'python3');
   
   const finalPythonCmd = fs.existsSync(venvPythonPath) ? venvPythonPath : pythonCmd;
-  const serverPath = path.join(packageDir, 'toolhive_server.py');
+  const serverPath = path.join(packageDir, 'src', 'toolhive_server.py');
   
   printStatus('Starting ToolHive MCP Server...', 'info');
   
